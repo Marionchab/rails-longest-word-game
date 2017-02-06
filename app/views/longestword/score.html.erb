@@ -1,0 +1,10 @@
+<h1>Longestword score</h1>
+<h3>Your word : <strong><%= @attempt %></strong></h3>
+
+
+<p>Time taken to answer: <strong><%= @results[:time]%></strong></p>
+<p>Translation: <strong><%= @results[:translation] %></strong></p>
+<p>Your score: <strong><%= @results[:score] %></strong></p>
+<p>Message: <strong><%= @results[:message] %></strong></p>
+
+<%= link_to "Play again!", game_path %>
